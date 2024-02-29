@@ -5,10 +5,10 @@ public class DMVSimulator{
 
         System.out.println("Welcome to the DMV!");
         Random random = new Random();
-        int waitingNumber = random.nextInt(100) + 1;
+        int waitingNumber = random.nextInt(200) + 1;
         System.out.println("Your number is " + waitingNumber);
         Thread.sleep(1000);
-        for (int counter = waitingNumber + 1; counter <= 100; counter++){
+        for (int counter = waitingNumber + 1; counter <= 200; counter++){
             System.out.println("Number " + counter + ", it is your turn!");
             Thread.sleep(20);
         }
