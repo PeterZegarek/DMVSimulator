@@ -21,6 +21,7 @@ public class DMVSimulator{
         System.out.println("Number " + waitingNumber + ", it is your turn!");
         if (random.nextInt(101)+1 <= 99){
             System.out.println("Unfortunately, since you don't have the required paperwork, you MUST leave immediately or you will be charged with trespassing.");
+            System.out.println("MUHHAHHHHAHAHA");
         }
         else {
             System.out.println("You have all of the required paperwork and you are all set!");
