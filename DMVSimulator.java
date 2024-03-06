@@ -20,5 +20,6 @@ public class DMVSimulator{
         Thread.sleep(200);
         System.out.println("Number " + waitingNumber + ", it is your turn!");
         System.out.println("Unfortunately, since you don't have the required paperwork, you MUST leave immediately or you will be charged with trespassing.");
+        System.out.println("MUHHAHHHHAHAHA");
     }
 }
